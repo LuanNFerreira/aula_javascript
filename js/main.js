@@ -10,13 +10,28 @@ function redirecionar(){
     //window.location.href = "https://github.com/LuanNFerreira" abre na mesma aba
 }
 
-function trocar(){
-    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
 }
 
-function voltar(){
-    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
 }
+
+function load(){
+    alert("pagina carregada");
+}
+
+function load(){
+    alert("pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
 /*function soma(n1,n2){
     return n1 + n2;
 }
